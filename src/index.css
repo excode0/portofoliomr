@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* src/index.css */
+:root {
+    --primary-color: #3490dc; /* Default */
+    --secondary-color: #ffed4a; /* Default */
+    --accent-color: #e3342f; /* Default */
+    --background-color: #f8fafc; /* Default */
+    --backgroundsecondary-color: #1f1f1f;/* Default */
+    --text-color: #2d3748; /* Default */
+  }
+  
+  /* Tema 1: Dark Navy */
+  [data-theme="dark-navy"] {
+    --primary-color: #1e3a8a;
+    --secondary-color: #f9fafb;
+    --accent-color: #9333ea;
+    --background-color: #1f2937;
+    --backgroundsecondary-color: #0b0e13;
+    --text-color: #e5e7eb;
+  }
+  
+  /* Tema 2: Royal Gold */
+  [data-theme="royal-gold"] {
+    --primary-color: #b7791f;
+    --secondary-color: #fef3c7;
+    --accent-color: #1c4532;
+    --background-color: #faf089;
+    --text-color: #1a202c;
+  }
+  
+  /* Tema 3: Emerald Green */
+  [data-theme="emerald-green"] {
+    --primary-color: #2f855a;
+    --secondary-color: #c6f6d5;
+    --accent-color: #4a5568;
+    --background-color: #f0fff4;
+    --text-color: #2d3748;
+  }
+  
+  /* Tema 4: Modern Slate */
+  [data-theme="modern-slate"] {
+    --primary-color: #2d3748;
+    --secondary-color: #edf2f7;
+    --accent-color: #4299e1;
+    --background-color: #f7fafc;
+    --text-color: #1a202c;
+  }
+  

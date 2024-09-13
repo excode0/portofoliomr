@@ -1,0 +1,51 @@
+Keterangan dari SVG
+Huruf-huruf dalam perintah SVG seperti M, L, dan H adalah instruksi untuk menggambar bentuk dan garis dalam elemen path. Berikut adalah penjelasan dari beberapa huruf umum yang digunakan dalam path SVG:
+
+M (Move To)
+
+Fungsi: Menggerakkan pena ke posisi tertentu tanpa menggambar garis.
+Contoh: M10 20 menggerakkan pena ke posisi (10, 20).
+L (Line To)
+
+Fungsi: Menggambar garis lurus dari posisi saat ini ke posisi yang ditentukan.
+Contoh: L30 40 menggambar garis dari posisi saat ini ke posisi (30, 40).
+H (Horizontal Line To)
+
+Fungsi: Menggambar garis horizontal dari posisi saat ini ke posisi x yang ditentukan, sementara nilai y tetap sama.
+Contoh: H70.5 menggambar garis horizontal ke posisi x = 70.5.
+V (Vertical Line To)
+
+Fungsi: Menggambar garis vertikal dari posisi saat ini ke posisi y yang ditentukan, sementara nilai x tetap sama.
+Contoh: V50 menggambar garis vertikal ke posisi y = 50.
+Z atau z (Close Path)
+
+Fungsi: Menggambar garis lurus kembali ke titik awal dari subpath yang sedang aktif, menutup bentuk.
+Contoh: Z atau z akan menutup bentuk yang sedang digambar dengan garis lurus ke titik awal.
+C (Cubic Bezier Curve)
+
+Fungsi: Menggambar kurva Bezier kubik ke posisi yang ditentukan, menggunakan dua titik kontrol.
+Contoh: C10 20, 30 40, 50 60 menggambar kurva dengan titik kontrol (10, 20) dan (30, 40), menuju (50, 60).
+S (Smooth Cubic Bezier Curve)
+
+Fungsi: Mirip dengan C, tetapi menggunakan titik kontrol dari kurva sebelumnya untuk menghaluskan transisi.
+Contoh: S70 80, 90 100 menggambar kurva dengan satu titik kontrol yang dihasilkan secara otomatis.
+Q (Quadratic Bezier Curve)
+
+Fungsi: Menggambar kurva Bezier kuadratik dengan satu titik kontrol.
+Contoh: Q25 75, 50 50 menggambar kurva dari posisi saat ini ke (50, 50) dengan titik kontrol (25, 75).
+T (Smooth Quadratic Bezier Curve)
+
+Fungsi: Mirip dengan Q, tetapi menggunakan titik kontrol dari kurva sebelumnya.
+Contoh: T75 25 menggambar kurva yang melanjutkan dari kurva kuadratik sebelumnya.
+A (Arc)
+
+Fungsi: Menggambar busur elips.
+Contoh: A30 50 0 1 1 100 100 menggambar busur dari posisi saat ini ke (100, 100) dengan elips yang memiliki radius (30, 50).
+Instruksi-instruksi ini memungkinkan untuk menggambar berbagai bentuk dan pola kompleks hanya dengan menggunakan satu elemen path.
+
+
+
+
+
+
+<svg fill="#000000" height="97px" width="97px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-22.4 -22.4 268.80 268.80" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <g> <path d="M200,122c-11.869,0-21.725,8.668-23.639,20H160c-13.234,0-24,10.76-24,23.986V210h8v-44.014 c0-8.814,7.178-15.986,16-15.986h16.361c1.913,11.332,11.77,20,23.639,20c13.234,0,24-10.766,24-24S213.234,122,200,122z M200,162c-8.822,0-16-7.178-16-16s7.178-16,16-16s16,7.178,16,16S208.822,162,200,162z"></path> <path d="M92,62H76c0-13.234-10.766-24-24-24S28,48.766,28,62s10.766,24,24,24c10.426,0,19.295-6.693,22.6-16H92 c8.822,0,16,7.188,16,16.024V210h8V86.024C116,72.777,105.234,62,92,62z M52,78c-8.822,0-16-7.178-16-16s7.178-16,16-16 s16,7.178,16,16S60.822,78,52,78z"></path> <path d="M64,122H47.639c-1.914-11.332-11.77-20-23.639-20c-13.234,0-24,10.766-24,24s10.766,24,24,24 c11.869,0,21.725-8.668,23.639-20H64c8.822,0,16,7.184,16,16.014V210h8v-63.986C88,132.774,77.234,122,64,122z M24,142 c-8.822,0-16-7.178-16-16s7.178-16,16-16s16,7.178,16,16C40,134.822,32.822,142,24,142z"></path> <path d="M163.461,94h12.9c1.913,11.332,11.77,20,23.639,20c13.234,0,24-10.766,24-24s-10.766-24-24-24 c-11.869,0-21.725,8.668-23.639,20h-12.9c-6.297,0-11.42-5.125-11.42-11.426V14h-8v60.574C144.041,85.285,152.752,94,163.461,94z M200,74c8.822,0,16,7.178,16,16s-7.178,16-16,16s-16-7.178-16-16S191.178,74,200,74z"></path> </g> </g> </g> </g></svg>
